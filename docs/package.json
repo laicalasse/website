@@ -1,11 +1,12 @@
 {
   "name": "website",
   "version": "1.0.0",
+  "type": "module",
   "description": "[Landing Page](https://www.tailwindtoolbox.com/templates/landing-page) is an open source, generic landing page template for [Tailwind CSS](https://tailwindcss.com/) created by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"http-server & tailwindcss -i ./main.css -o ./dist/main.css --watch"
+    "dev": "http-server & tailwindcss -i ./main.css -o ./dist/main.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
   "dependencies": {
     "http-server": "^14.1.1",
     "tailwindcss": "^3.4.4"
+  },
+  "devDependencies": {
+    "preline": "^2.3.0"
   }
 }

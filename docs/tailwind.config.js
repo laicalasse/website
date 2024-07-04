@@ -1,9 +1,10 @@
+import preline from "preline/plugin"
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [preline],
 }
 
