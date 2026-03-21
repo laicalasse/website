@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laicalasse — Sharp systems, stronger teams, zero waste</title>
+<meta name="description" content="Laicalasse is a minimalist engineering studio. We build precise software systems and grow exceptional engineering teams.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://laicalasse.com/">
+<meta property="og:title" content="Laicalasse — Sharp systems, stronger teams, zero waste">
+<meta property="og:description" content="A minimalist engineering studio. We build precise software systems and grow exceptional engineering teams.">
+<meta property="og:image" content="https://laicalasse.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://laicalasse.com/">
+<meta name="twitter:title" content="Laicalasse — Sharp systems, stronger teams, zero waste">
+<meta name="twitter:description" content="A minimalist engineering studio. We build precise software systems and grow exceptional engineering teams.">
+<meta name="twitter:image" content="https://laicalasse.com/og-image.jpg">
+<meta name="twitter:site" content="@laicalassehq">
+
+<!-- Additional Meta Tags -->
+<meta name="theme-color" content="#0B3D2E">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════ LEAF SVG SYMBOL ═══════ -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="leaf" viewBox="340 290 420 400">
+    <path d="M 728.5 316 L 739.5 316 L 740 318.5 L 738 322.5 L 738 326.5 L 728 365.5 L 710 425.5 L 687 485.5 Q 673.7 515.7 656 541.5 Q 641.6 561.6 623.5 578 Q 593.9 605.4 552.5 621 L 527.5 629 L 501.5 635 L 496.5 635 L 471.5 640 L 465.5 640 L 464.5 641 L 458.5 641 L 451.5 643 L 445.5 643 L 417.5 649 L 397.5 656 L 376.5 667 L 377 665.5 Q 400.3 622.3 431 586.5 Q 469.2 541.7 511.5 501 Q 564 449.5 625 406.5 L 623.5 406 Q 557.6 436.1 501.5 476 Q 438.4 520.9 387 577.5 L 368.5 600 L 367 597.5 L 367 587.5 L 366 586.5 L 366 551.5 L 367 550.5 L 367 540.5 L 368 539.5 L 368 532.5 L 369 531.5 L 371 514.5 L 379 487.5 L 385 473.5 Q 401.2 440.2 427.5 417 Q 448.6 397.6 474.5 383 Q 502.8 367.3 535.5 356 L 577.5 343 L 618.5 333 L 666.5 324 L 673.5 324 L 680.5 322 L 694.5 321 L 710.5 318 L 718.5 318 L 719.5 317 L 727.5 317 L 728.5 316 Z"/>
+  </symbol>
+</svg>
+
+<!-- ═══════ NAVIGATION ═══════ -->
+<nav id="nav">
+  <a href="#" class="nav-brand">
+    <svg><use href="#leaf" fill="#0B3D2E"/></svg>
+    Laicalasse
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#principles">Principles</a></li>
+    <li><a href="#voice">Voice</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get in touch</a>
+  <button class="mobile-toggle" onclick="document.querySelector('.mobile-menu').classList.add('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu">
+  <button class="mobile-close" onclick="this.parentElement.classList.remove('open')" aria-label="Close">&times;</button>
+  <a href="#services" onclick="this.closest('.mobile-menu').classList.remove('open')">Services</a>
+  <a href="#principles" onclick="this.closest('.mobile-menu').classList.remove('open')">Principles</a>
+  <a href="#voice" onclick="this.closest('.mobile-menu').classList.remove('open')">Voice</a>
+  <a href="#contact" onclick="this.closest('.mobile-menu').classList.remove('open')">Contact</a>
+</div>
+
+<!-- ═══════ HERO ═══════ -->
+<section class="hero">
+  <div class="hero-leaf">
+    <svg><use href="#leaf" fill="#0B3D2E"/></svg>
+  </div>
+  <h1>Laicalasse</h1>
+  <p class="hero-tagline">We build precise software systems and grow exceptional engineering teams. Nothing more, nothing less.</p>
+  <div class="hero-cta-group">
+    <a href="#contact" class="btn-primary">Start a conversation</a>
+    <a href="#services" class="btn-secondary">What we do</a>
+  </div>
+  <div class="hero-scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══════ PHILOSOPHY ═══════ -->
+<section class="philosophy section-padding">
+  <div class="section-inner">
+    <div class="section-label reveal">Philosophy</div>
+    <h2 class="section-headline reveal reveal-delay-1">
+      Most systems are unnecessarily complex. Most teams are poorly structured. We exist to prove that <em>cutting 80%</em> of what everyone else builds isn't compromise — it's <em>precision</em>. The same mind that removes unnecessary services from a system removes unnecessary process from a team.
+    </h2>
+    <div class="philosophy-foot reveal reveal-delay-2">
+      Sharp systems, stronger teams, zero waste
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ SERVICES ═══════ -->
+<section id="services" class="section-padding">
+  <div class="section-inner">
+    <div class="section-label reveal">What we do</div>
+    <h2 class="section-headline reveal reveal-delay-1">Two pillars,<br>one discipline.</h2>
+
+    <div class="services-grid">
+      <div class="service-pillar reveal reveal-delay-2">
+        <div class="pillar-label">Pillar I — Systems</div>
+        <div class="pillar-title">Build only what matters</div>
+        <p class="pillar-desc">High-precision software engineered with mathematical clarity. We design systems that do less — and do it flawlessly. Architecture as subtraction.</p>
+        <ul class="pillar-list">
+          <li>System architecture & design</li>
+          <li>Technical debt strategy</li>
+          <li>Developer experience optimization</li>
+          <li>Infrastructure simplification</li>
+        </ul>
+      </div>
+
+      <div class="service-pillar reveal reveal-delay-3">
+        <div class="pillar-label">Pillar II — Teams</div>
+        <div class="pillar-title">Grow engineers, not headcount</div>
+        <p class="pillar-desc">Engineering leadership that treats team-building with the same rigor as system design. We raise the bar of the people you already have.</p>
+        <ul class="pillar-list">
+          <li>Engineering team building & scaling</li>
+          <li>Technical competence growth frameworks</li>
+          <li>Hiring process design & interview calibration</li>
+          <li>Code review culture & engineering standards</li>
+          <li>Performance frameworks & career ladders</li>
+          <li>Architecture mentorship & RFC processes</li>
+          <li>Onboarding system design</li>
+          <li>Team topology & org structure</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PROOF / METRICS ═══════ -->
+<section class="proof section-padding">
+  <div class="section-inner">
+    <p class="proof-statement reveal">"The best feature we shipped last quarter was a deletion. The best hire we made was the three engineers we didn't need to recruit."</p>
+    <div class="proof-grid">
+      <div class="proof-stat reveal reveal-delay-1">
+        <div class="stat-number" data-count="80">0%</div>
+        <div class="stat-label">Less code,<br>same output</div>
+      </div>
+      <div class="proof-stat reveal reveal-delay-2">
+        <div class="stat-number" data-count="3" data-suffix="x">0x</div>
+        <div class="stat-label">Faster<br>deployments</div>
+      </div>
+      <div class="proof-stat reveal reveal-delay-3">
+        <div class="stat-number" data-count="60">0%</div>
+        <div class="stat-label">Shorter<br>time-to-hire</div>
+      </div>
+      <div class="proof-stat reveal reveal-delay-4">
+        <div class="stat-number" data-count="0" data-special="fewer">—</div>
+        <div class="stat-label">Unnecessary<br>meetings</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PRINCIPLES ═══════ -->
+<section id="principles" class="section-padding">
+  <div class="section-inner">
+    <div class="section-label reveal">Principles</div>
+    <h2 class="section-headline reveal reveal-delay-1">How we think<br>about everything.</h2>
+
+    <div class="principles-grid">
+      <div class="principle-card reveal reveal-delay-2">
+        <div class="principle-num">01</div>
+        <div class="principle-title">Subtract first</div>
+        <p class="principle-desc">Every feature, process, and meeting must survive the question: does removing this make the system or the team worse? If the answer is unclear, it goes.</p>
+      </div>
+      <div class="principle-card reveal reveal-delay-3">
+        <div class="principle-num">02</div>
+        <div class="principle-title">Prove with structure</div>
+        <p class="principle-desc">Architecture decisions backed by load tests. Hiring calibrated by data. Performance frameworks built on observable outputs, not gut feeling.</p>
+      </div>
+      <div class="principle-card reveal reveal-delay-4">
+        <div class="principle-num">03</div>
+        <div class="principle-title">Quiet authority</div>
+        <p class="principle-desc">Leadership is shown through the quality of the team's output, not the volume of the leader's voice. The work speaks.</p>
+      </div>
+      <div class="principle-card reveal reveal-delay-2">
+        <div class="principle-num">04</div>
+        <div class="principle-title">Growth under constraint</div>
+        <p class="principle-desc">Clear standards, honest feedback loops, and the patience to let mastery compound. Constraints are where both elegant code and excellent engineers are forged.</p>
+      </div>
+      <div class="principle-card reveal reveal-delay-3">
+        <div class="principle-num">05</div>
+        <div class="principle-title">Contrarian by default</div>
+        <p class="principle-desc">Scaling means hiring? Not necessarily. Agile means standups? Prove it. We'd rather run a small sharp team than a department following a framework they don't understand.</p>
+      </div>
+      <div class="principle-card reveal reveal-delay-4">
+        <div class="principle-num">06</div>
+        <div class="principle-title">Simplicity is the product</div>
+        <p class="principle-desc">Fewer dependencies, fewer states, fewer handoffs, clearer ownership. That's the deliverable — whether we're refactoring a codebase or an organization.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ VOICE ═══════ -->
+<section id="voice" class="section-padding" style="background:#FAFAF6">
+  <div class="section-inner">
+    <div class="section-label reveal">Voice</div>
+    <h2 class="section-headline reveal reveal-delay-1">We say it different<br>because we mean it different.</h2>
+
+    <div class="voice-examples">
+      <div class="reveal reveal-delay-2">
+        <div class="voice-col-title do">Laicalasse sounds like</div>
+        <div class="voice-item good">"We removed the dashboard. Turns out nobody used it — they just needed the one number."</div>
+        <div class="voice-item good">"Three services replaced with one function. Deployment time dropped from 12 minutes to 40 seconds."</div>
+        <div class="voice-item good">"Your team doesn't need a new hire. It needs the three engineers you already have to stop working around a broken review process."</div>
+        <div class="voice-item good">"We don't install frameworks. We build the habits that make frameworks unnecessary."</div>
+      </div>
+      <div class="reveal reveal-delay-3">
+        <div class="voice-col-title dont">Laicalasse never sounds like</div>
+        <div class="voice-item bad">"We're super excited to announce our revolutionary new AI-powered solution!"</div>
+        <div class="voice-item bad">"Our robust, scalable, enterprise-grade platform leverages cutting-edge technology."</div>
+        <div class="voice-item bad">"We empower teams to unlock their full potential through our holistic transformation methodology."</div>
+        <div class="voice-item bad">"Join our amazing team on this incredible journey to transform the future of work!"</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CONTACT CTA ═══════ -->
+<section id="contact" class="section-padding cta-section">
+  <div class="section-inner" style="display:flex;flex-direction:column;align-items:center">
+    <div class="section-label reveal">Let's talk</div>
+    <h2 class="section-headline reveal reveal-delay-1" style="text-align:center">Sharp systems don't build themselves.<br>Neither do great teams.</h2>
+    <p class="cta-sub reveal reveal-delay-2">Tell us what's broken. We'll tell you what to remove.</p>
+    <a href="mailto:hello@laicalasse.com" class="cta-email reveal reveal-delay-3">hello@laicalasse.com</a>
+    <div class="hero-cta-group reveal reveal-delay-4" style="margin-top:2rem">
+      <a href="mailto:hello@laicalasse.com" class="btn-primary">Start a conversation</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <svg><use href="#leaf" fill="#999"/></svg>
+      Laicalasse
+    </div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/company/laicalasse" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/laicalassehq" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="mailto:hello@laicalasse.com">hello@laicalasse.com</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Laicalasse</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
